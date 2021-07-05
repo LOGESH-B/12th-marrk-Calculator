@@ -73,7 +73,7 @@ span{
     color:rgba(0, 0, 0, 0.50);
     
 }
-@media screen  and (max-width: 790px) {
+@media screen  and (max-width: 580px) {
     img{
       display: none !important;
     }
