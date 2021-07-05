@@ -82,7 +82,7 @@ span{
     }
   }
   
-  @media (min-width: 790px) and (max-width:1400px ) {
+  @media (min-width: 789px) and (max-width:1400px ) {
     img {
       display: block;
     }
