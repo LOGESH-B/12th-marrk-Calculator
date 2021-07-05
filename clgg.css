@@ -75,10 +75,10 @@ span{
 }
 @media (min-width: 100px) and (max-width: 790px) {
     img{
-      display: none !important;
+      display: none;
     }
     body#back{
-        background-image: block !important;
+        background-image: block;
     }
   }
   
@@ -87,7 +87,7 @@ span{
       display: block;
     }
     body#back{
-        background-image: none !important;
+        background-image: none;
     }
   
   }
