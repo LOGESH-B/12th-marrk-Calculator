@@ -1,0 +1,93 @@
+#head{
+    font-size: 1.5rem;
+    padding-top: 15px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+   
+}
+img{
+    width: 60px;
+    height: 60.50px;
+}
+a:hover{
+    text-shadow:2px 2px 2px black;
+}
+hr{
+    border-bottom: 15px;
+}
+body{
+    padding:0px 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzH7bPeL_LVAl4U7z8Z-kaeYIRSiYg0nvoNQETe4CVYu8cZRjw-qEGkhiqz9LNY8NcbaY&usqp=CAU);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.btn{
+    margin: auto;
+}
+.card-header{
+   text-align: center;
+   font-weight:400;
+   font-size: 1.5rem;
+}
+input{
+    align-items: center;
+}
+
+.card{
+    border-radius: 0.25rem;
+    align-content: center;
+}
+#pad{
+    padding-top:16px;
+    border-color: white;
+}
+#fir{
+    align-items: start;
+   border-color: #198754;
+   
+}
+.card-body{
+    
+    padding: 1rem 1rem;
+    border-color: #198754;
+    align-items: center;
+
+}
+#bor{
+    border-color: #198754;;
+}
+#mi{
+    border-color: #ffc107;
+}
+#las
+{
+    border-color: #0d6efd;
+}
+td{
+    text-align: center;  
+}
+
+span{
+    color:rgba(0, 0, 0, 0.50);
+    
+}
+@media (min-width: 500px) and (max-width: 790px) {
+    img{
+      display: none !important;
+    }
+    body#back{
+        background-image: block !important;
+    }
+  }
+  
+  @media (min-width: 790px) and (max-width:1400px ) {
+    img {
+      display: block;
+    }
+    body#back{
+        background-image: none !important;
+    }
+  
+  }
