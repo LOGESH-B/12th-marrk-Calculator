@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEC CUTTOFF CALCULATOR</title>
+    <link rel="stylesheet" href="clgg.css">
+    
+</head>
+<body id="back">
+    <div class="container-lg py-3">
+  <header>
+    <div class="d-flex justify-content-between"    >
+      <img  src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Kongu_Engineering_College_logo.png/200px-Kongu_Engineering_College_logo.png" alt="">
+     <a class="" id="head" href="https://kongu.ac.in/">KONGU ENGINEERING COLLEGE, PERUNDHURAI</a>    
+     <a href="https://kongu.ac.in/pages/aboutkec.php"> <img src="https://kongu.edu/images/klogo.png" alt=""></a>
+    </div>
+     
+  </header>
+  <hr>
+
+  
+
+<!-- <div class="container"> -->
+    
+  <form action="#">
+    <div class="row  d-flex justify-content-center">
+
+        <div id="fir" class="cm  col-md-4 d-flex  justify-content-center mb-5">
+            <div id="bor" class="card  table-responsive" style="width: 18rem;">
+                <div   class="card-header " style="background-color: #198754;">
+                  SSLC MARK
+                </div>
+                <div class="card-body ">
+                      <table id="pad" class="table table-striped " >
+                          <tr>
+                             <td >Max Mark 1</td>
+                              <td><input type="text" class="max" min="0" max="100" size="4" required="true">/100</td>
+                          </tr>
+                      <tr>
+                         <td >Max Mark 2</td>
+                          <td><input type="number" class="max" min="0" max="100" size="4" required="true">/100</td>
+                      </tr>
+                    <tr>
+                       <td >Max Mark 3</td>
+                        <td><input type="number" class="max" min="0" max="100" size="4"required="true">/100</td>
+                    </tr>
+                    
+                      </table>
+                    </div>
+            </div>
+         </div>
+        <div id="fir"  class="cm   col-md-4 d-flex  justify-content-center mb-5">
+            <div id="mi" class="card table-responsive justify-content-center" style="width: 18rem;">
+                <div  class="card-header justify-content-center" style="background-color:#ffc107;">
+                  11th MARK
+                </div>
+                <div class="card-body ">
+                  <table id="pad" class="table table-striped justify-content-center" >
+                        <tr>
+                           <td>Tamil</td>
+                            <td><input type="number" id="nine"  min="0" max="90" size="4" required="true">/90</td>
+                        </tr>
+                        <tr>
+                           <td>English</td>
+                            <td><input type="number" id="nine"  min="0" max="90" size="4" required="true">/90</td>
+                        </tr>
+
+                        <tr>
+                           <td>Maths</td>
+                            <td><input type="number" id="nine"  min="0" max="90" size="4" required="true">/90</td>
+                        </tr>
+                        <tr>
+                          <td>Physics</td>
+                           <td><input type="number" class="max1" min="0" max="70" size="4" required="true">/70</td>
+                       </tr>
+                       <tr>
+                        <td>Chemistry</td>
+                         <td><input type="number" class="max1" min="0" max="70" size="4" required="true">/70</td>
+                     </tr>
+                     <tr>
+                      <td>Bio/Computer</td>
+                       <td><input type="number" class="max1" min="0" max="70" size="4" required="true">/70</td>
+                   </tr>
+                        
+                    </table>
+                  </div>
+              </div>
+        </div>
+        <div id="fir" class="cm   col-md-4 d-flex  justify-content-center mb-5">
+            <div id="las" class="card table-responsive d-flex justify-content-center" style="width: 18rem;">
+                <div  class="card-header justify-content-center" style="background-color: #0d6efd;">
+                  12th MARK
+                </div>
+                <div class="card-body ">
+                  <table id="pad" class="table table-striped justify-content-center" >
+                        <tr>
+                           <td>Tamil</td>
+                            <td><input type="number" class="max2" min="0" max="10" size="4"required="true">/10</td>
+                        </tr>
+                        <tr>
+                           <td>English</td>
+                            <td><input type="number" class="max2" min="0" max="10" size="4" required="true">/10</td>
+                        </tr>
+
+                        <tr>
+                           <td>Maths</td>
+                            <td><input type="number" class="max2" min="0" max="10" size="4" required="true">/10</td>
+                        </tr>
+                        <tr>
+                           <td>Physics</td>
+                            <td><input type="number" class="max2" min="0" max="30" size="4" required="true">/30</td>
+                        </tr>
+                        <tr>
+                           <td>Chemistry</td>
+                            <td><input type="number" class="max2" min="0" max="30" size="4" required="true">/30</td>
+                        </tr>
+                    
+                        <tr>
+                           <td>Bio/Computer</td>
+                            <td><input type="number" class="max2" min="0" max="30" size="4" required="true">/30</td>
+                        </tr>
+                    </table>
+                  </div>
+              </div>
+        </div>
+
+    </div>
+    <div class="row my-5 py-3 bg-warning d-flex justify-content-center ">
+      <div class="col-lg-3">
+        <label for="name">NAME</label>
+        <br>
+        <input id="name" type="text" required="true">
+      </div>
+      <div class="col-lg-3">
+        <label for="name">Mobile Number</label>
+        <br>
+        <input id="name" max="9999999999" size="10" type="number" required="true">
+      </div>
+      <div class="col-lg-3">
+        <label for="name">Email ID</label>
+        <br>
+        <input id="name" type="email" required="true">
+      </div>
+      <div class="col-lg-3 d-flex align-items-center">
+       <button class="btn btn-success " id="bt">Calculate</button>
+      </div>
+    </div>
+
+    </div>
+  </form>
+    <hr>
+    
+    <footer class="pt-5" >
+     <span >Developed by noob</span> 
+      
+    </footer>
+</div>
+
+<script src="clggg,js.js"></script>
+
+
+<!-- CSS only -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</body>
+</html>
