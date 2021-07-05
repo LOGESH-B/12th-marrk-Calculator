@@ -87,7 +87,7 @@ function tol(maxx11,maxx12,maxx){
      maxxx=max(maxx);
     mul(maxx12);
     tot=tol(maxx11,maxx12,maxxx);
-    alert("YOUR TOTAL :"+tot);
+    alert(" YOUR TOTAL :"+tot);
     console.log(maxxx)
     
 });
