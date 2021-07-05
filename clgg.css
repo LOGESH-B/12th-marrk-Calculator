@@ -83,7 +83,7 @@ span{
     img {
       display: block;
     }
-    body{
+    body#back{
         background-image: none;
     }
    
