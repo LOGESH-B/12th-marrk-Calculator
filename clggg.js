@@ -13,7 +13,7 @@ var ten,ten11,ten12,t,total=0,tot,t11=0;
 var maxx=0,maxx1,maxxx,M1=0;
 var mark=new Array (6);
 var maxx11=new Array (6);
-var M,Num,n=0,n1=3,n2=0;
+var M,Num;
 var maxx12=new Array (6);
 var maxxx12;
 var i;
@@ -83,33 +83,7 @@ function tol(maxx11,maxx12,maxx){
  {
      maxxx=max(maxx);
     tot=tol(maxx11,maxx12,maxxx);
-    // console.log(mark[0]);
-    // console.log(mark[1]);
-    // console.log(mark[2]);
-    // console.log(mark[3]);
-    // console.log(mark[4]);
-    // console.log(mark[5]);
-
-    alert("TAMIL="+mark[0]+"\nENGLISH="+mark[1] +"\nMATHS="+mark[2]+"\nPHYSICS="+mark[3]+"\nCHEMISTRY="+mark[4]+"\nBIO/COMPUTER="+mark[5]+"\n-----------------------"+"\nYOUR TOTAL :"+tot+"\n-----------------------");
-
-
-    // console.log(maxxx);
-    // console.log(maxx11[0]);
-    // console.log(maxx11[1]);
-    // console.log(maxx11[2]);
-    // console.log(maxx11[3]);
-    // console.log(maxx11[4]);
-    // console.log(maxx11[5]);
-    // console.log("--------------");
-    // console.log(maxx12[0]);
-    // console.log(maxx12[1]);
-    // console.log(maxx12[2]);
-    // console.log(maxx12[3])
-    // console.log(maxx12[4]);
-    // console.log(maxx12[5]);
-    // console.log("--------------");
-
-    
+    alert("TAMIL="+mark[0]+"\nENGLISH="+mark[1] +"\nMATHS="+mark[2]+"\nPHYSICS="+mark[3]+"\nCHEMISTRY="+mark[4]+"\nBIO/COMPUTER="+mark[5]+"\n-----------------------"+"\nYOUR TOTAL :"+tot+"\n-----------------------");   
 });
 
 
